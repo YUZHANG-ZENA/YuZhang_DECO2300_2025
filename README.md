@@ -7,8 +7,11 @@ Update date: 13/08/2025
    Procreate (Category: Creation), a professional digital illustration and painting application.    
 
 2. User Tasks and Goals
+   
   a.	Immersive Drawing Experience
+  
     Goal: Create freely on an expandable canvas without being restricted by screen size.
+    
     Task: Use controllers or hand gestures to zoom, rotate, and move the canvas in space.
 
   b.	Layered Drawing
