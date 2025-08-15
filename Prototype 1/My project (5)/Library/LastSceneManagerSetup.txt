@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/wk2-app1.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
