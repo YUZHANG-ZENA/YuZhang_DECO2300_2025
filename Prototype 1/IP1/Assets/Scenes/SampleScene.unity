@@ -205,7 +205,7 @@ GameObject:
   - component: {fileID: 61290424}
   - component: {fileID: 61290423}
   m_Layer: 0
-  m_Name: Whiteboard
+  m_Name: Canvas
   m_TagString: Whiteboard
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
