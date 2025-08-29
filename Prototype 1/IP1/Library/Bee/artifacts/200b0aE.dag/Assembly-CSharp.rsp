@@ -355,13 +355,11 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.62f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.62f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
-"Assets/Scripts/EraserPicker.cs"
 "Assets/Scripts/Pen.cs"
 "Assets/Scripts/PenController.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/SimpleCornerHandle.cs"
 "Assets/Scripts/Whiteboard.cs"
-"Assets/Scripts/WhiteboardDraggable.cs"
 "Assets/Scripts/WhiteboardDragger.cs"
 -langversion:9.0
 /deterministic

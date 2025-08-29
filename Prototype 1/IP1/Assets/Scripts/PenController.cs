@@ -13,9 +13,16 @@ public class PenController : MonoBehaviour
     private Whiteboard board;
     private Vector2? lastUV = null;
 
+    public bool isDrawing = false;
+
     void Start()
     {
         cam = Camera.main;
+    }
+
+    void Update()
+    {
+        isDrawing = Input.GetKey(KeyCode.Space);  
     }
 
     void OnMouseDown()
@@ -32,9 +39,9 @@ public class PenController : MonoBehaviour
             Vector3 mouseWorld = cam.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, cam.WorldToScreenPoint(transform.position).z));
             transform.position = mouseWorld + offset;
 
-            if (Input.GetMouseButton(0))
+            if (isDrawing)
             {
-                Ray ray = new Ray(transform.position, transform.forward); 
+                Ray ray = new Ray(transform.position, transform.forward);
                 if (Physics.Raycast(ray, out RaycastHit hit))
                 {
                     if (hit.collider.CompareTag("Whiteboard"))
@@ -73,10 +80,11 @@ public class PenController : MonoBehaviour
 
     void OnMouseUp()
     {
-        isHeld = false; 
+        isHeld = false;
         lastUV = null;
     }
 }
+
 
 
 
